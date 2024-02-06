@@ -7,9 +7,9 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/flask-vercel')
+@app.route('/flaskvercel')
 def flask():
-    return render_template('flask-vercel.html')
+    return render_template('flaskvercel.html')
 
 if __name__ == "__main__":
     app.run()
